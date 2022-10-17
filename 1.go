@@ -48,5 +48,28 @@ func main() {
 	fmt.Println(a)
 	a = a >> 4 // 999^4 / 999^4=999^0
 	fmt.Println(a)
+	n := 4359.6
+	n = 3.45e75
+	n = 95.98E75
+	fmt.Println(n)
+
+	b := 45.45
+	c := 435.2
+	// Remainder used only for interges
+	fmt.Println(b + c)
+	fmt.Println(b - c)
+	fmt.Println(b / c)
+	fmt.Println(b * c)
+
+	// Complexity
+
+	var f complex64 = 1 + 2i
+	fmt.Println(f)
+	var d complex64 = 1 + 3i
+	var e complex64 = 1 + 6i
+	fmt.Println(d + e)
+	fmt.Println(d - e)
+	fmt.Println(d * e)
+	fmt.Println(d / e)
 
 }
